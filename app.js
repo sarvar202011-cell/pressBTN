@@ -16,7 +16,7 @@ function addCount() {
 
 function minusCount() {
   if (count === 0) {
-    return;
+    return null;
   }
 
   count -= 1;
